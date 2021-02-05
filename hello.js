@@ -1,7 +1,8 @@
-const http = rquire('http');
+const http = require('http');
 
-const server = http.creatServer(function(request,response){
+const server = http.createServer(function(request,response){
 
     response.end("Hello World");
 });
 server.listen(7000);
+
